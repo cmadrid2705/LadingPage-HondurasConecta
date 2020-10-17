@@ -1,0 +1,62 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/08/2020 22:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-proteger:before { content: "\f100"; }
+.flaticon-transparencia:before { content: "\f101"; }
+.flaticon-puno:before { content: "\f102"; }
+.flaticon-ganador:before { content: "\f103"; }
+.flaticon-progreso:before { content: "\f104"; }
+.flaticon-negocios-y-finanzas:before { content: "\f105"; }
+.flaticon-reunion:before { content: "\f106"; }
+.flaticon-apreton-de-manos:before { content: "\f107"; }
+.flaticon-rompecabezas:before { content: "\f108"; }
+.flaticon-instagram:before { content: "\f109"; }
+.flaticon-facebook:before { content: "\f10a"; }
+    
+    $font-Flaticon-proteger: "\f100";
+    $font-Flaticon-transparencia: "\f101";
+    $font-Flaticon-puno: "\f102";
+    $font-Flaticon-ganador: "\f103";
+    $font-Flaticon-progreso: "\f104";
+    $font-Flaticon-negocios-y-finanzas: "\f105";
+    $font-Flaticon-reunion: "\f106";
+    $font-Flaticon-apreton-de-manos: "\f107";
+    $font-Flaticon-rompecabezas: "\f108";
+    $font-Flaticon-instagram: "\f109";
+    $font-Flaticon-facebook: "\f10a";
